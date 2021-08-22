@@ -22,6 +22,7 @@
 #include "win32_types.h"
 
 #define FDAPI_NOCRTREDEFS
+#include <system_error>
 #include "Win32_FDAPI.h"
 #include "win32_rfdmap.h"
 #include <exception>
